@@ -18,7 +18,7 @@ sudo service nginx start
 sudo service nginx stop
 
 # mv rtmp config file
-sudo mv nginx.conf /usr/local/nginx/conf/
+sudo cp nginx.conf /usr/local/nginx/conf/
 
 # start service
 sudo service nginx restart
